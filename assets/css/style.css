@@ -1,7 +1,4 @@
 body {
-    display: block;
-    height: 100%;
-    margin: 0;
     background-image: url('../images/mirrored_squares_@2X.png');
 }
 h2{
@@ -26,7 +23,7 @@ h2{
     text-align: justify;
     line-height: 50px;
 }
-.wcolor{
+.wcolor {
     background-color: #ffffff;
 }
 .bot {
@@ -37,4 +34,14 @@ h2{
     font-size: 10px;
     line-height: 40px;
     color: #fff;
+}
+textarea {
+    line-height: 50px;
+    height: 100%;
+    width: 100%;
+}
+.btn {
+    background-color: #4aaaa5;
+    color: #fff;
+    font-size: 16px;
 }
